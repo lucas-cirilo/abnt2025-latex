@@ -1,0 +1,1 @@
+% Conteúdo simulado de abnt2025.cls
