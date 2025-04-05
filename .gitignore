@@ -1,3 +1,4 @@
+# Arquivos temporários e auxiliares do LaTeX
 *.aux
 *.log
 *.toc
@@ -16,4 +17,14 @@
 *.xdv
 *.run.xml
 *.bcf
-*.pdf
+
+# Pastas ocultas
+._*
+Thumbs.db
+.DS_Store
+
+# Arquivos temporários do editor
+*~
+*.swp
+*.bak
+*.tmp
