@@ -1,1 +1,19 @@
-% Conteúdo simulado de .gitignore
+*.aux
+*.log
+*.toc
+*.out
+*.gz
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.run.xml
+*.bcf
+*.pdf
