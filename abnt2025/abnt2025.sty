@@ -1,1 +1,31 @@
-% Conteúdo simulado de abnt2025.sty
+% abnt2025.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{abnt2025}[2025/04/10 Estilo ABNT 2025 por Lucas Cirilo dos Santos]
+
+% Pacotes
+\RequirePackage{ifthen}
+\RequirePackage{xcolor}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr}
+\RequirePackage{graphicx}
+\RequirePackage{tocloft}
+\RequirePackage{lipsum}
+
+% Cores e margens
+\RequirePackage{config/cores}
+\RequirePackage{config/margens}
+
+% Fontes
+\RequirePackage{config/fontes}
+
+% Cabeçalhos e rodapés
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+% Estilo de capítulos e seções
+\titleformat{\section}{\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{1em}{}
+
+\endinput
